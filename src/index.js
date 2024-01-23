@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Hello from './Hello.js';
+import reportWebVitals from './reportWebVitals'; 
+import 'tachyons';
+
+// reportWebVitals now i don't need to know what it is
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Hello World</h1>
-    <App />
+    <h1></h1>
+    <Hello />
   </React.StrictMode>
 );
 
